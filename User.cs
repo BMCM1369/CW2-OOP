@@ -41,6 +41,17 @@ public class User
         get { return role; }
         set { role = value; }
     } // All the usual constructors and such for the attributes listed in the UML diagram, role could be made to have only student and admin at a later stage for extra brownie points, but I won't complicate things for now
+    
+    public User(int userId, string userName, string password, string email, string role) //Constructor to create a user
+    {
+        this.UserId = userId;
+        this.UserName = userName;
+        this.Password = password;
+        this.Email = email;
+        this.Role = role;
+        this.IsLoggedIn = false; //When a user is created they are not logged in by default
+    }
+
     public bool Login(string userName, string password) //Created this method to complement the LogOut method, can be changed if need be but this is what makes sense to me
     {
         if (UserName == userName && Password == password) //checking if the username and password is valid
