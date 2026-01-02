@@ -62,7 +62,7 @@ namespace User_Class
 
                 string choice = Console.ReadLine();
 
-                switch (choice)
+                switch (choice) 
                 {
                     case "1":
                         ViewAllUsers(users);

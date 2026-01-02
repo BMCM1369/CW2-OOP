@@ -6,14 +6,13 @@ using System.Threading.Tasks;
 
 
 
-
 public class User
 {
     private int userId;
-    private string userName;
-    private string password;
-    private string email;
-    private string role;
+    private string userName = string.Empty;
+    private string password = string.Empty;
+    private string email = string.Empty;
+    private string role = string.Empty;
     private bool isLoggedIn;
 
     public int UserId
