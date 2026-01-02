@@ -1,0 +1,83 @@
+﻿using System;
+using System.Collections.Generic;
+
+//This is the Question class, it represents a question in the quiz application
+public class Question
+{
+    //Private fields of the Question class.
+    private int questionID;
+    private string questionText;
+    private List<string> questionOptions;
+    private string questionCorrectAnswer;
+    private string questionDifficultyLevel;
+
+
+    public int QuestionID
+    {
+        get { return questionID; }
+        set { questionID = value; }
+    }
+
+    public string QuestionText
+    {
+        get { return questionText; }
+        set { questionText = value; }
+    }
+
+    public List<string> QuestionOptions
+    {
+        get { return questionOptions; }
+        set { questionOptions = value; }
+    }
+
+    public string QuestionCorrectAnswer
+    {
+        get { return questionCorrectAnswer; }
+        set { questionCorrectAnswer = value; }
+    }
+
+    public string QuestionDifficultyLevel
+    {
+        get { return questionDifficultyLevel; }
+        set { questionDifficultyLevel = value; }
+    }
+
+    //These are the constructors for the above fields
+    public Question(int id, string text, List<string> options, string correctAnswer, string difficulty)
+    {
+        questionID = id;
+        questionText = text;
+        questionOptions = options ?? new List<string>();
+        questionCorrectAnswer = correctAnswer;
+        questionDifficultyLevel = difficulty;
+    }
+
+    //Method to check if the users answer is correct.
+    public bool CheckAnswer(string userAnswer)
+    {
+        //If the user has not entered data, false will be returned to avoid runtime errors.
+        if (string.IsNullOrEmpty(userAnswer))
+        {
+            return false;
+        }
+
+        //Compares the users data to the correct answer that is stored, uppercase and lowercase differences are ignored.
+        return userAnswer.Equals(QuestionCorrectAnswer, StringComparison.OrdinalIgnoreCase);
+    }
+
+    //Method to return a feedback - if the users answer is correct or incorrect.
+    public string ReturnResult(string userAnswer)
+    {
+        //Calls CheckAnswer to determine the return value
+        if (CheckAnswer(userAnswer))
+        {
+            return "Correct";
+
+        }
+
+        else
+        {
+            return "Incorrect";
+        }
+    }
+}
