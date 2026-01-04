@@ -1,0 +1,9 @@
+# Visual Studio
+.vs/
+MainFiles/.vs/
+
+# Build outputs
+[Bb]in/
+[Oo]bj/
+MainFiles/bin/
+MainFiles/obj/
