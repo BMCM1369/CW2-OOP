@@ -1,0 +1,14 @@
+C:\Users\benmc\OneDrive\Documents\Desktop\CW2 Runnable\User_Class\bin\Debug\net8.0\User_Class.exe
+C:\Users\benmc\OneDrive\Documents\Desktop\CW2 Runnable\User_Class\bin\Debug\net8.0\User_Class.deps.json
+C:\Users\benmc\OneDrive\Documents\Desktop\CW2 Runnable\User_Class\bin\Debug\net8.0\User_Class.runtimeconfig.json
+C:\Users\benmc\OneDrive\Documents\Desktop\CW2 Runnable\User_Class\bin\Debug\net8.0\User_Class.dll
+C:\Users\benmc\OneDrive\Documents\Desktop\CW2 Runnable\User_Class\bin\Debug\net8.0\User_Class.pdb
+C:\Users\benmc\OneDrive\Documents\Desktop\CW2 Runnable\User_Class\obj\Debug\net8.0\User_Class.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\benmc\OneDrive\Documents\Desktop\CW2 Runnable\User_Class\obj\Debug\net8.0\User_Class.AssemblyInfoInputs.cache
+C:\Users\benmc\OneDrive\Documents\Desktop\CW2 Runnable\User_Class\obj\Debug\net8.0\User_Class.AssemblyInfo.cs
+C:\Users\benmc\OneDrive\Documents\Desktop\CW2 Runnable\User_Class\obj\Debug\net8.0\User_Class.csproj.CoreCompileInputs.cache
+C:\Users\benmc\OneDrive\Documents\Desktop\CW2 Runnable\User_Class\obj\Debug\net8.0\User_Class.dll
+C:\Users\benmc\OneDrive\Documents\Desktop\CW2 Runnable\User_Class\obj\Debug\net8.0\refint\User_Class.dll
+C:\Users\benmc\OneDrive\Documents\Desktop\CW2 Runnable\User_Class\obj\Debug\net8.0\User_Class.pdb
+C:\Users\benmc\OneDrive\Documents\Desktop\CW2 Runnable\User_Class\obj\Debug\net8.0\User_Class.genruntimeconfig.cache
+C:\Users\benmc\OneDrive\Documents\Desktop\CW2 Runnable\User_Class\obj\Debug\net8.0\ref\User_Class.dll
