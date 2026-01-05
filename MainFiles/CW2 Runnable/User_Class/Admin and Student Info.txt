@@ -1,0 +1,13 @@
+Admin and Student Info
+
+Admin:
+userName: "sampleAdmin",
+password: "Password123!",
+email: "Admin@example.com",
+role: "Admin"
+
+Student:
+    userName: "sampleStudent",
+    password: "Password123!",
+    email: "student@example.com",
+    role: "Student"
